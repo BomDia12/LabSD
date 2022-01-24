@@ -1,0 +1,171 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/bomdia
+Eand2
+Z0 w1643034064
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 47
+Z3 d/home/bomdia/UnB/LabSD/TesteVHDL
+Z4 8/home/bomdia/UnB/LabSD/and2.vhd
+Z5 F/home/bomdia/UnB/LabSD/and2.vhd
+l0
+L4 1
+VN?a9;EdVWe<To8PXd@jW^3
+!s100 g_5GgHT=nHQil4EX@UEm^2
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1643035709
+!i10b 1
+Z8 !s108 1643035709.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/bomdia/UnB/LabSD/and2.vhd|
+Z10 !s107 /home/bomdia/UnB/LabSD/and2.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+DEx4 work 4 and2 0 22 N?a9;EdVWe<To8PXd@jW^3
+!i122 47
+l13
+L11 7
+VLDO=f2kT25Mf<D2G2Q3YU1
+!s100 3DFP2hnR`38QAPU_aHDzD2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eand3
+Z13 w1643035388
+R1
+R2
+!i122 49
+R3
+Z14 8/home/bomdia/UnB/LabSD/and3.vhd
+Z15 F/home/bomdia/UnB/LabSD/and3.vhd
+l0
+L4 1
+VGzo:Wn0OD1bmlle@R2T:g0
+!s100 `^ncl@M2_T91M;[2Y8<^61
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/bomdia/UnB/LabSD/and3.vhd|
+Z17 !s107 /home/bomdia/UnB/LabSD/and3.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 4 and3 0 22 Gzo:Wn0OD1bmlle@R2T:g0
+!i122 49
+l11
+L10 6
+V?Sc`k7NM9lI8=<1^2MGkI0
+!s100 ]g6986I5;NUa;Dmgclll]2
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Etb_and3
+Z18 w1643035694
+!i122 50
+R3
+Z19 8/home/bomdia/UnB/LabSD/tb_and3.vhd
+Z20 F/home/bomdia/UnB/LabSD/tb_and3.vhd
+l0
+L1 1
+Vf1ezknFGo_Uz3dXZ;0EKH3
+!s100 Nea0l4TP>PX?l_z^F9E9S3
+R6
+32
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/bomdia/UnB/LabSD/tb_and3.vhd|
+Z22 !s107 /home/bomdia/UnB/LabSD/tb_and3.vhd|
+!i113 1
+R11
+R12
+Atest
+Z23 DEx4 work 7 tb_and3 0 22 f1ezknFGo_Uz3dXZ;0EKH3
+R1
+R2
+!i122 50
+l20
+Z24 L7 30
+Z25 V6_<=I3eGf]VmXmHEPQ>B61
+Z26 !s100 [FVB4hY4AnUcdTKJhb?<Q3
+R6
+32
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Etestbench1
+R0
+!i122 48
+R3
+Z27 8/home/bomdia/UnB/LabSD/tb_and2.vhd
+Z28 F/home/bomdia/UnB/LabSD/tb_and2.vhd
+l0
+L1 1
+VRz^1=D1Q`ONkWn2^RbghQ3
+!s100 GR=lXMU[LQiII8_nim@>m1
+R6
+32
+R7
+!i10b 1
+R8
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/bomdia/UnB/LabSD/tb_and2.vhd|
+Z30 !s107 /home/bomdia/UnB/LabSD/tb_and2.vhd|
+!i113 1
+R11
+R12
+Atb_and2
+DEx4 work 10 testbench1 0 22 Rz^1=D1Q`ONkWn2^RbghQ3
+R1
+R2
+!i122 48
+l20
+L7 27
+VQBAh179TSkjgCaS@RRohi0
+!s100 =o0E;GmZ48Qdo53Bf6hFP1
+R6
+32
+R7
+!i10b 1
+R8
+R29
+R30
+!i113 1
+R11
+R12
