@@ -1,0 +1,91 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/bomdia
+Ecarry_over
+Z0 w1643637920
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+Z3 d/home/bomdia/UnB/LabSD/Experimento2
+Z4 8/home/bomdia/UnB/LabSD/Experimento2/carry_over.vhd
+Z5 F/home/bomdia/UnB/LabSD/Experimento2/carry_over.vhd
+l0
+L4 1
+V1W?02A6MEcjb`Sj6_ZCiK0
+!s100 SGn5Igc39ALnEo3HD?He13
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1643671052
+!i10b 1
+Z8 !s108 1643671052.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/bomdia/UnB/LabSD/Experimento2/carry_over.vhd|
+Z10 !s107 /home/bomdia/UnB/LabSD/Experimento2/carry_over.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+DEx4 work 10 carry_over 0 22 1W?02A6MEcjb`Sj6_ZCiK0
+!i122 4
+l14
+L10 12
+V9:ZPaf^6Ue`4^H9EUQ5fa1
+!s100 hhhc`YdTnE?_LGh4J92nL3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_carry_over
+Z13 w1643671030
+!i122 5
+R3
+Z14 8/home/bomdia/UnB/LabSD/Experimento2/tb_carry_over.vhd
+Z15 F/home/bomdia/UnB/LabSD/Experimento2/tb_carry_over.vhd
+l0
+L1 1
+VIgLU_GW4<BF]9]@Jd2H493
+!s100 KcM94_CUg=4V2Ggeh:]XV3
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/bomdia/UnB/LabSD/Experimento2/tb_carry_over.vhd|
+Z17 !s107 /home/bomdia/UnB/LabSD/Experimento2/tb_carry_over.vhd|
+!i113 1
+R11
+R12
+Atest
+Z18 DEx4 work 13 tb_carry_over 0 22 IgLU_GW4<BF]9]@Jd2H493
+R1
+R2
+!i122 5
+l23
+Z19 L7 37
+Z20 V`kHOd9IFM]7]`e4JV2Y0n2
+Z21 !s100 P85c]]dL9?DRAWCDZz;PE2
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
