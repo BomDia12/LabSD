@@ -1,42 +1,8 @@
-# 0 compiles, 2 failed with no errors.
-# Error opening /home/bomdia/UnB/LabSD/and3.vhd
-# Path name '/home/bomdia/UnB/LabSD/and3.vhd' doesn't exist.
-# Error opening /home/bomdia/UnB/LabSD/and2.vhd
-# Path name '/home/bomdia/UnB/LabSD/and2.vhd' doesn't exist.
-# Error opening /home/bomdia/UnB/LabSD/and2.vhd
-# Path name '/home/bomdia/UnB/LabSD/and2.vhd' doesn't exist.
-# Error opening /home/bomdia/UnB/LabSD/and2.vhd
-# Path name '/home/bomdia/UnB/LabSD/and2.vhd' doesn't exist.
-# Error opening /home/bomdia/UnB/LabSD/and2.vhd
-# Path name '/home/bomdia/UnB/LabSD/and2.vhd' doesn't exist.
-# Error opening /home/bomdia/UnB/LabSD/and2.vhd
-# Path name '/home/bomdia/UnB/LabSD/and2.vhd' doesn't exist.
-# 0 compiles, 2 failed with no errors.
-# 0 compiles, 2 failed with no errors.
-# Compile of and2.vhd was successful.
-# Compile of tb_and2.vhd was successful.
-# 2 compiles, 0 failed with no errors.
-# Errors: 0, Warnings: 0
-# Compile of and2.vhd was successful.
-# Errors: 1, Warnings: 0
-# Errors: 0, Warnings: 0
-# Compile of tb_and2.vhd was successful.
-# Errors: 4, Warnings: 0
-# Errors: 1, Warnings: 0
-# Errors: 4, Warnings: 0
-# Errors: 1, Warnings: 0
-# Compile of and3.vhd failed.
-# Errors: 4, Warnings: 0
-# Compile of tb_and3.vhd failed.
 # Errors: 0, Warnings: 0
 # Compile of and2.vhd was successful.
 # Errors: 0, Warnings: 0
 # Compile of tb_and2.vhd was successful.
-# Errors: 1, Warnings: 0
-# Errors: 4, Warnings: 0
-# Errors: 1, Warnings: 0
-# Errors: 4, Warnings: 0
-# Errors: 1, Warnings: 0
-# Compile of and3.vhd failed.
-# Errors: 4, Warnings: 0
-# Compile of tb_and3.vhd failed.
+# Errors: 0, Warnings: 0
+# Compile of and3.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of tb_and3.vhd was successful.

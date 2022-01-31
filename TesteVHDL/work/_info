@@ -13,7 +13,7 @@ Eand2
 Z0 w1643034064
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 47
+!i122 64
 Z3 d/home/bomdia/UnB/LabSD/TesteVHDL
 Z4 8/home/bomdia/UnB/LabSD/and2.vhd
 Z5 F/home/bomdia/UnB/LabSD/and2.vhd
@@ -23,9 +23,9 @@ VN?a9;EdVWe<To8PXd@jW^3
 !s100 g_5GgHT=nHQil4EX@UEm^2
 Z6 OV;C;2020.1;71
 32
-Z7 !s110 1643035709
+Z7 !s110 1643635894
 !i10b 1
-Z8 !s108 1643035709.000000
+Z8 !s108 1643635894.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/bomdia/UnB/LabSD/and2.vhd|
 Z10 !s107 /home/bomdia/UnB/LabSD/and2.vhd|
 !i113 1
@@ -35,7 +35,7 @@ Artl
 R1
 R2
 DEx4 work 4 and2 0 22 N?a9;EdVWe<To8PXd@jW^3
-!i122 47
+!i122 64
 l13
 L11 7
 VLDO=f2kT25Mf<D2G2Q3YU1
@@ -54,7 +54,7 @@ Eand3
 Z13 w1643035388
 R1
 R2
-!i122 49
+!i122 66
 R3
 Z14 8/home/bomdia/UnB/LabSD/and3.vhd
 Z15 F/home/bomdia/UnB/LabSD/and3.vhd
@@ -76,9 +76,9 @@ Artl
 R1
 R2
 DEx4 work 4 and3 0 22 Gzo:Wn0OD1bmlle@R2T:g0
-!i122 49
+!i122 66
 l11
-L10 6
+Z18 L10 6
 V?Sc`k7NM9lI8=<1^2MGkI0
 !s100 ]g6986I5;NUa;Dmgclll]2
 R6
@@ -91,12 +91,53 @@ R17
 !i113 1
 R11
 R12
-Etb_and3
-Z18 w1643035694
-!i122 50
+Eor2
+Z19 w1643635613
+R1
+R2
+!i122 68
 R3
-Z19 8/home/bomdia/UnB/LabSD/tb_and3.vhd
-Z20 F/home/bomdia/UnB/LabSD/tb_and3.vhd
+Z20 8/home/bomdia/UnB/LabSD/TesteVHDL/or2.vhd
+Z21 F/home/bomdia/UnB/LabSD/TesteVHDL/or2.vhd
+l0
+L4 1
+V7EmFk>zm68V7f9C92mk?c1
+!s100 ;8181OZmO?gcf3d95;ZYI1
+R6
+32
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/bomdia/UnB/LabSD/TesteVHDL/or2.vhd|
+Z23 !s107 /home/bomdia/UnB/LabSD/TesteVHDL/or2.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+DEx4 work 3 or2 0 22 7EmFk>zm68V7f9C92mk?c1
+!i122 68
+l11
+R18
+VW1>2Xn3O;0@8jPe1NNKo=1
+!s100 P6NcU1heRI_oHfAi=8WmM1
+R6
+32
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Etb_and3
+Z24 w1643035694
+!i122 67
+R3
+Z25 8/home/bomdia/UnB/LabSD/tb_and3.vhd
+Z26 F/home/bomdia/UnB/LabSD/tb_and3.vhd
 l0
 L1 1
 Vf1ezknFGo_Uz3dXZ;0EKH3
@@ -106,36 +147,75 @@ R6
 R7
 !i10b 1
 R8
-Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/bomdia/UnB/LabSD/tb_and3.vhd|
-Z22 !s107 /home/bomdia/UnB/LabSD/tb_and3.vhd|
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/bomdia/UnB/LabSD/tb_and3.vhd|
+Z28 !s107 /home/bomdia/UnB/LabSD/tb_and3.vhd|
 !i113 1
 R11
 R12
 Atest
-Z23 DEx4 work 7 tb_and3 0 22 f1ezknFGo_Uz3dXZ;0EKH3
+DEx4 work 7 tb_and3 0 22 f1ezknFGo_Uz3dXZ;0EKH3
 R1
 R2
-!i122 50
+!i122 67
 l20
-Z24 L7 30
-Z25 V6_<=I3eGf]VmXmHEPQ>B61
-Z26 !s100 [FVB4hY4AnUcdTKJhb?<Q3
+L7 30
+V6_<=I3eGf]VmXmHEPQ>B61
+!s100 [FVB4hY4AnUcdTKJhb?<Q3
 R6
 32
 R7
 !i10b 1
 R8
-R21
-R22
+R27
+R28
+!i113 1
+R11
+R12
+Etb_or2
+Z29 w1643635879
+!i122 69
+R3
+Z30 8/home/bomdia/UnB/LabSD/TesteVHDL/tb_or2.vhd
+Z31 F/home/bomdia/UnB/LabSD/TesteVHDL/tb_or2.vhd
+l0
+L1 1
+VcZNnCSG;TC1<U5iDojG1c3
+!s100 D?;FdFQ0oK>d4_WYS_14a1
+R6
+32
+R7
+!i10b 1
+R8
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/bomdia/UnB/LabSD/TesteVHDL/tb_or2.vhd|
+Z33 !s107 /home/bomdia/UnB/LabSD/TesteVHDL/tb_or2.vhd|
+!i113 1
+R11
+R12
+Atest
+Z34 DEx4 work 6 tb_or2 0 22 cZNnCSG;TC1<U5iDojG1c3
+R1
+R2
+!i122 69
+l18
+Z35 L7 24
+Z36 VGFY:kT5;GkULGCIn8b``z1
+Z37 !s100 ?`S1WG2XnIn`b@7kO1c3h2
+R6
+32
+R7
+!i10b 1
+R8
+R32
+R33
 !i113 1
 R11
 R12
 Etestbench1
 R0
-!i122 48
+!i122 65
 R3
-Z27 8/home/bomdia/UnB/LabSD/tb_and2.vhd
-Z28 F/home/bomdia/UnB/LabSD/tb_and2.vhd
+Z38 8/home/bomdia/UnB/LabSD/tb_and2.vhd
+Z39 F/home/bomdia/UnB/LabSD/tb_and2.vhd
 l0
 L1 1
 VRz^1=D1Q`ONkWn2^RbghQ3
@@ -145,8 +225,8 @@ R6
 R7
 !i10b 1
 R8
-Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/bomdia/UnB/LabSD/tb_and2.vhd|
-Z30 !s107 /home/bomdia/UnB/LabSD/tb_and2.vhd|
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/bomdia/UnB/LabSD/tb_and2.vhd|
+Z41 !s107 /home/bomdia/UnB/LabSD/tb_and2.vhd|
 !i113 1
 R11
 R12
@@ -154,7 +234,7 @@ Atb_and2
 DEx4 work 10 testbench1 0 22 Rz^1=D1Q`ONkWn2^RbghQ3
 R1
 R2
-!i122 48
+!i122 65
 l20
 L7 27
 VQBAh179TSkjgCaS@RRohi0
@@ -164,8 +244,8 @@ R6
 R7
 !i10b 1
 R8
-R29
-R30
+R40
+R41
 !i113 1
 R11
 R12
