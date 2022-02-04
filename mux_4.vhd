@@ -3,8 +3,8 @@ use ieee.std_logic_1164.all;
 
 entity mux_4 is port (
     d : in std_logic_vector (3 downto 0);
-    s : in std_logic_vector (1 downto 0);.
-    y : out std_logic;
+    s : in std_logic_vector (1 downto 0);
+    y : out std_logic
 );
 end mux_4;
 
