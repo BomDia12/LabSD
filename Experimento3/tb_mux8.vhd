@@ -14,6 +14,7 @@ architecture test of tb_mux8 is
     end component;
 
     signal i : std_logic_vector (10 downto 0);
+    -- signal a : std_logic_vector (2 downto 0): (others => '0');
 
     -- Time constants
     constant k : time := 1024 ns;
