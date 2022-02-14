@@ -13,7 +13,7 @@ Ecarry_over
 Z0 w1643637920
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 99
+!i122 122
 Z3 d/home/bomdia/UnB/LabSD/Experimento2
 Z4 8/home/bomdia/UnB/LabSD/Experimento2/carry_over.vhd
 Z5 F/home/bomdia/UnB/LabSD/Experimento2/carry_over.vhd
@@ -23,9 +23,9 @@ V1W?02A6MEcjb`Sj6_ZCiK0
 !s100 SGn5Igc39ALnEo3HD?He13
 Z6 OV;C;2020.1;71
 32
-Z7 !s110 1644002982
+Z7 !s110 1644603658
 !i10b 1
-Z8 !s108 1644002982.000000
+Z8 !s108 1644603658.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/bomdia/UnB/LabSD/Experimento2/carry_over.vhd|
 Z10 !s107 /home/bomdia/UnB/LabSD/Experimento2/carry_over.vhd|
 !i113 1
@@ -35,7 +35,7 @@ Artl
 R1
 R2
 DEx4 work 10 carry_over 0 22 1W?02A6MEcjb`Sj6_ZCiK0
-!i122 99
+!i122 122
 l14
 L10 12
 V9:ZPaf^6Ue`4^H9EUQ5fa1
@@ -54,7 +54,7 @@ Ecomplete_sum
 Z13 w1643673590
 R1
 R2
-!i122 103
+!i122 126
 R3
 Z14 8/home/bomdia/UnB/LabSD/Experimento2/complete_sum.vhd
 Z15 F/home/bomdia/UnB/LabSD/Experimento2/complete_sum.vhd
@@ -76,7 +76,7 @@ Artl
 R1
 R2
 DEx4 work 12 complete_sum 0 22 51a3B_aMlG<<zWzQNW[`n1
-!i122 103
+!i122 126
 l26
 L10 22
 Vii=UTg0O=5C:GW>9a=WF;1
@@ -92,10 +92,10 @@ R17
 R11
 R12
 Emux_4
-Z18 w1644003376
+Z18 w1644605369
 R1
 R2
-!i122 108
+!i122 130
 R3
 Z19 8/home/bomdia/UnB/LabSD/Experimento2/mux.vhd
 Z20 F/home/bomdia/UnB/LabSD/Experimento2/mux.vhd
@@ -105,9 +105,9 @@ VzY5Fb7kS_XF3KdGodn;1B3
 !s100 IT]Rdo=eFzDjh2Ngi^]<n1
 R6
 32
-Z21 !s110 1644003379
+Z21 !s110 1644608809
 !i10b 1
-Z22 !s108 1644003379.000000
+Z22 !s108 1644608809.000000
 Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/bomdia/UnB/LabSD/Experimento2/mux.vhd|
 Z24 !s107 /home/bomdia/UnB/LabSD/Experimento2/mux.vhd|
 !i113 1
@@ -116,12 +116,12 @@ R12
 Artl
 R1
 R2
-DEx4 work 5 mux_4 0 22 zY5Fb7kS_XF3KdGodn;1B3
-!i122 108
+Z25 DEx4 work 5 mux_4 0 22 zY5Fb7kS_XF3KdGodn;1B3
+!i122 130
 l14
-L12 10
-V<T]NSC>=He4JD]=7OMU;W1
-!s100 O:H@D1Rab79KQ;N66^GM[2
+Z26 L12 10
+Z27 V<T]NSC>=He4JD]=7OMU;W1
+Z28 !s100 O:H@D1Rab79KQ;N66^GM[2
 R6
 32
 R21
@@ -133,11 +133,11 @@ R24
 R11
 R12
 Etb_carry_over
-Z25 w1643671030
-!i122 100
+Z29 w1644603257
+!i122 123
 R3
-Z26 8/home/bomdia/UnB/LabSD/Experimento2/tb_carry_over.vhd
-Z27 F/home/bomdia/UnB/LabSD/Experimento2/tb_carry_over.vhd
+Z30 8/home/bomdia/UnB/LabSD/Experimento2/tb_carry_over.vhd
+Z31 F/home/bomdia/UnB/LabSD/Experimento2/tb_carry_over.vhd
 l0
 L1 1
 VIgLU_GW4<BF]9]@Jd2H493
@@ -147,8 +147,8 @@ R6
 R7
 !i10b 1
 R8
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/bomdia/UnB/LabSD/Experimento2/tb_carry_over.vhd|
-Z29 !s107 /home/bomdia/UnB/LabSD/Experimento2/tb_carry_over.vhd|
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/bomdia/UnB/LabSD/Experimento2/tb_carry_over.vhd|
+Z33 !s107 /home/bomdia/UnB/LabSD/Experimento2/tb_carry_over.vhd|
 !i113 1
 R11
 R12
@@ -156,38 +156,38 @@ Atest
 DEx4 work 13 tb_carry_over 0 22 IgLU_GW4<BF]9]@Jd2H493
 R1
 R2
-!i122 100
-l23
-L7 37
-V`kHOd9IFM]7]`e4JV2Y0n2
-!s100 P85c]]dL9?DRAWCDZz;PE2
+!i122 123
+l20
+Z34 L7 34
+VAaZ]HQMJfSIKDc<JX:nOT2
+!s100 AkhFg<H]KmnOAmU39k0fB1
 R6
 32
 R7
 !i10b 1
 R8
-R28
-R29
+R32
+R33
 !i113 1
 R11
 R12
 Etb_complete_sum
-Z30 w1644002893
-!i122 104
+Z35 w1644603461
+!i122 127
 R3
-Z31 8/home/bomdia/UnB/LabSD/Experimento2/tb_complete_sum.vhd
-Z32 F/home/bomdia/UnB/LabSD/Experimento2/tb_complete_sum.vhd
+Z36 8/home/bomdia/UnB/LabSD/Experimento2/tb_complete_sum.vhd
+Z37 F/home/bomdia/UnB/LabSD/Experimento2/tb_complete_sum.vhd
 l0
 L1 1
 Vn9[>g?Nd6H[N^>mSe6RF31
 !s100 j<izSnhzmfAi9jaVP51HR2
 R6
 32
-Z33 !s110 1644002983
+Z38 !s110 1644603659
 !i10b 1
 R8
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/bomdia/UnB/LabSD/Experimento2/tb_complete_sum.vhd|
-Z35 !s107 /home/bomdia/UnB/LabSD/Experimento2/tb_complete_sum.vhd|
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/bomdia/UnB/LabSD/Experimento2/tb_complete_sum.vhd|
+Z40 !s107 /home/bomdia/UnB/LabSD/Experimento2/tb_complete_sum.vhd|
 !i113 1
 R11
 R12
@@ -195,38 +195,38 @@ Atest
 DEx4 work 15 tb_complete_sum 0 22 n9[>g?Nd6H[N^>mSe6RF31
 R1
 R2
-!i122 104
-l22
-L6 39
-VF^XQ_c8VRj6iHT@_DWz7L2
-!s100 FDKS7fld4ElVT=Q];Z@Pa2
+!i122 127
+l20
+L6 35
+V3:UX5T0:`FmRe6^?cmi]A2
+!s100 4<a>bg2eJ?0?15U<WP[E02
 R6
 32
-R33
+R38
 !i10b 1
 R8
-R34
-R35
+R39
+R40
 !i113 1
 R11
 R12
 Etb_mux_4
-Z36 w1644004222
-!i122 113
+Z41 w1644004222
+!i122 129
 R3
-Z37 8/home/bomdia/UnB/LabSD/Experimento2/tb_mux_4.vhd
-Z38 F/home/bomdia/UnB/LabSD/Experimento2/tb_mux_4.vhd
+Z42 8/home/bomdia/UnB/LabSD/Experimento2/tb_mux_4.vhd
+Z43 F/home/bomdia/UnB/LabSD/Experimento2/tb_mux_4.vhd
 l0
 L1 1
 VLO^56Q>5Xa7NMiUS>;KlW0
 !s100 Kj75J=nfj=27[n52PPT3>1
 R6
 32
-Z39 !s110 1644004229
+R38
 !i10b 1
-Z40 !s108 1644004228.000000
-Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/bomdia/UnB/LabSD/Experimento2/tb_mux_4.vhd|
-!s107 /home/bomdia/UnB/LabSD/Experimento2/tb_mux_4.vhd|
+Z44 !s108 1644603659.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/bomdia/UnB/LabSD/Experimento2/tb_mux_4.vhd|
+Z46 !s107 /home/bomdia/UnB/LabSD/Experimento2/tb_mux_4.vhd|
 !i113 1
 R11
 R12
@@ -234,27 +234,27 @@ Atest
 DEx4 work 8 tb_mux_4 0 22 LO^56Q>5Xa7NMiUS>;KlW0
 R1
 R2
-!i122 113
+!i122 129
 l26
 L6 61
 VJh]]HY?]dI2Bj<FI?dOjH0
 !s100 jDl858o5TMXzN<lN2f]`H2
 R6
 32
-R39
+R38
 !i10b 1
-R40
-R41
-Z42 !s107 /home/bomdia/UnB/LabSD/Experimento2/tb_mux_4.vhd|
+R44
+R45
+R46
 !i113 1
 R11
 R12
 Etb_unit
-Z43 w1643672324
-!i122 102
+Z47 w1644603095
+!i122 125
 R3
-Z44 8/home/bomdia/UnB/LabSD/Experimento2/tb_unit.vhd
-Z45 F/home/bomdia/UnB/LabSD/Experimento2/tb_unit.vhd
+Z48 8/home/bomdia/UnB/LabSD/Experimento2/tb_unit.vhd
+Z49 F/home/bomdia/UnB/LabSD/Experimento2/tb_unit.vhd
 l0
 L1 1
 V@KeTzcaYhNY[XBm@0J[n82
@@ -264,8 +264,8 @@ R6
 R7
 !i10b 1
 R8
-Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/bomdia/UnB/LabSD/Experimento2/tb_unit.vhd|
-Z47 !s107 /home/bomdia/UnB/LabSD/Experimento2/tb_unit.vhd|
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/bomdia/UnB/LabSD/Experimento2/tb_unit.vhd|
+Z51 !s107 /home/bomdia/UnB/LabSD/Experimento2/tb_unit.vhd|
 !i113 1
 R11
 R12
@@ -273,29 +273,29 @@ Atest
 DEx4 work 7 tb_unit 0 22 @KeTzcaYhNY[XBm@0J[n82
 R1
 R2
-!i122 102
-l23
-L7 39
-V>:A`Q[V7nbkmEWg`h2RkA2
-!s100 5Ban[B9@U?@4Jh9cN1IeD3
+!i122 125
+l20
+R34
+VfCG>1D_DWGF:9CQSAEPa01
+!s100 kBT2:;Uf5CzZ@imScAlKV0
 R6
 32
 R7
 !i10b 1
 R8
-R46
-R47
+R50
+R51
 !i113 1
 R11
 R12
 Eunit
-Z48 w1643671698
+Z52 w1643671698
 R1
 R2
-!i122 101
+!i122 124
 R3
-Z49 8/home/bomdia/UnB/LabSD/Experimento2/unit.vhd
-Z50 F/home/bomdia/UnB/LabSD/Experimento2/unit.vhd
+Z53 8/home/bomdia/UnB/LabSD/Experimento2/unit.vhd
+Z54 F/home/bomdia/UnB/LabSD/Experimento2/unit.vhd
 l0
 L4 1
 VEmQM@B<`;b83FT:LSJah=0
@@ -305,8 +305,8 @@ R6
 R7
 !i10b 1
 R8
-Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/bomdia/UnB/LabSD/Experimento2/unit.vhd|
-Z52 !s107 /home/bomdia/UnB/LabSD/Experimento2/unit.vhd|
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/bomdia/UnB/LabSD/Experimento2/unit.vhd|
+Z56 !s107 /home/bomdia/UnB/LabSD/Experimento2/unit.vhd|
 !i113 1
 R11
 R12
@@ -314,7 +314,7 @@ Artl
 R1
 R2
 DEx4 work 4 unit 0 22 EmQM@B<`;b83FT:LSJah=0
-!i122 101
+!i122 124
 l14
 L10 13
 V_eH[W@zD3WDZWZcBmRPZD0
@@ -324,8 +324,8 @@ R6
 R7
 !i10b 1
 R8
-R51
-R52
+R55
+R56
 !i113 1
 R11
 R12

@@ -98,4 +98,18 @@ begin
         wait for k;
     end process;
 
+    -- i(10) <= not i(10) after k/2;
+    -- i(9)  <= not i(9)  after j/2;
+    -- i(8)  <= not i(8)  after l/2;
+    
+    
+    -- a <= "000" after 128 ns,
+    --      "001" after 128 ns,
+    --      "010" after 128 ns, 
+    --      "011" after 128 ns,
+    --      "100" after 128 ns,
+    --      "101" after 128 ns,
+    --      "110" after 128 ns,
+    --      "111" after 128 ns;
+
 end test;

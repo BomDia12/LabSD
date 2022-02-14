@@ -4,7 +4,6 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 architecture test of tb_complete_sum is
-
     component complete_sum
     port (
         i0, i1, i2 : in std_logic;
@@ -18,9 +17,7 @@ architecture test of tb_complete_sum is
     constant c : time := 20 ns;
     constant b : time := 10 ns;
     constant a : time := 5  ns;
-
 begin
-
     sum : complete_sum port map (i(0), i(1), i(2), open);
 
     i_0 : process
@@ -40,5 +37,4 @@ begin
         i(2) <= '0', '1' after (c/2), '0' after c;
         wait for c;
     end process;
-
 end test;

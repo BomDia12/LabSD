@@ -4,7 +4,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use std.textio.all
 
-architecture tb_and3 of tb_and3 is
+architecture test of tb_and3 is
 
     component and3
     port(
@@ -32,4 +32,4 @@ architecture tb_and3 of tb_and3 is
             wait;
         end process  estimulo;
 
-end test;    
+end test;

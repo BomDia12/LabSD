@@ -5,9 +5,7 @@ use ieee.std_logic_1164.all;
 use std.textio.all;
 
 architecture test of tb_carry_over is
-
-    component carry_over
-    port (
+    component carry_over port (
         i1, i2, i3: in std_logic;
         y: out std_logic
     );
@@ -19,7 +17,6 @@ architecture test of tb_carry_over is
     constant c : time := 20 ns;
     constant b : time := 10 ns;
     constant a : time := 5 ns;
-
 begin
     c1: carry_over port map (i(0), i(1), i(2), open);
 
