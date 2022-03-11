@@ -8,14 +8,12 @@ entity questao2 is port (
 end questao2;
 
 architecture arch of questao2 is
-
     component decoder
     port (
         s : in  std_logic_vector (3 downto 0);
         d : out std_logic_vector (15 downto 0)
     );
     end component;
-
     component mux8
     port (
         d : in  std_logic_vector (7 downto 0);
@@ -26,9 +24,7 @@ architecture arch of questao2 is
 
     signal decoder_out : std_logic_vector (15 downto 0);
     signal mux_in      : std_logic_vector (7  downto 0);
-
 begin
-
     mux_in(7) <= '1';
     mux_in(6) <= decoder_out(10) or decoder_out(11);
     mux_in(5) <= '0';
@@ -40,5 +36,4 @@ begin
 
     dec : decoder port map ( s => e (6 downto 3), d => decoder_out );
     mux : mux8    port map ( s => e (2 downto 0), d => mux_in, y => s );
-
 end arch ;
