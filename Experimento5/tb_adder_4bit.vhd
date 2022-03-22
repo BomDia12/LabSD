@@ -24,8 +24,7 @@ architecture test of tb_adder_4bit is
     constant time_6 : time := 128 ns;
     constant time_7 : time := 256 ns;
 
-begin
-    
+begin  
     subject : adder_4bit port map (a => i (3 downto 0), b => i (7 downto 4), s => open);
 
     i(0) <= not i(0) after time_0/2;
@@ -36,5 +35,4 @@ begin
     i(5) <= not i(5) after time_5/2;
     i(6) <= not i(6) after time_6/2;
     i(7) <= not i(7) after time_7/2;
-
 end test;
