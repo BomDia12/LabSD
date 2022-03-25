@@ -15,6 +15,7 @@ architecture arch of registry is
 begin
 
     process (clk)
+    begin
         if rising_edge(clk) then
             if rst = '1' then aux <= "0000";
             elsif load = '1' then aux <= d;
