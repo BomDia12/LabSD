@@ -45,7 +45,7 @@ begin
                     when "00" => next_state <= c25;
                     when "01" => next_state <= c50;
                     when "10" => next_state <= c75;
-                    when others => next_state <= d75;
+                    when others => next_state <= d25;
                 end case;
             when c50 =>
                 r_soda <= '0';
@@ -55,7 +55,7 @@ begin
                     when "00" => next_state <= c50;
                     when "01" => next_state <= c75;
                     when "10" => next_state <= c100;
-                    when others => next_state <= dc50;
+                    when others => next_state <= d50;
                 end case;
             when c75 =>
                 r_soda <= '0';
@@ -65,7 +65,7 @@ begin
                     when "00" => next_state <= c75;
                     when "01" => next_state <= c100;
                     when "10" => next_state <= c125;
-                    when others => next_state <= dc75;
+                    when others => next_state <= d75;
                 end case;
             when c100 =>
                 r_soda <= '1';
