@@ -19,6 +19,7 @@ architecture arch of maqmealy is
     type estado is (GR, YY, NN, RR2, RY, RG, RR1, YR);
 
     signal current_state, next_state : estado;
+    signal rst : std_logic;
 
 begin
 
@@ -26,6 +27,7 @@ begin
     begin
         if rising_edge(clk) then
             current_state <= next_state;
+            rst_cont <= rst;
         end if;
     end process;
 
@@ -36,13 +38,13 @@ begin
                 next_state <= NN;
                 light_a  <= "010";
                 light_b  <= "010";
-                rst_cont <= '1';
+                rst <= '1';
             elsif current_state = NN then 
                 next_state <= YY;
                 light_a  <= "000";
                 light_b  <= "000";
-                rst_cont <= '1';
-            else 
+                rst <= '1';
+            else
                 next_state <= YY;
             end if;
         else
@@ -52,63 +54,72 @@ begin
                     light_b <= "001";
                     if (T60 = '1' or (T20 = '1' and car_ns = '0' and car_lo = '1')) then
                         next_state <= YR ;
-                        rst_cont   <= '1';
-                    else rst_cont <= '0';
+                        rst   <= '1';
+                    else
+                        next_state <= GR ;
+                        rst   <= '0';
                     end if;
                 when YR =>
                     light_a <= "010";
                     light_b <= "001";
                     if (T6 = '1') then
                         next_state <= RR1;
-                        rst_cont   <= '1';
+                        rst   <= '1';
                     else
-                        next_state <= YY ;
-                        rst_cont   <= '0';
+                        next_state <= YR ;
+                        rst   <= '0';
                     end if;
                 when RR1 =>
                     light_a <= "001";
                     light_b <= "001";
                     if (T5 = '1') then
                         next_state <= RG ;
-                        rst_cont   <= '1';
+                        rst   <= '1';
                     else
                         next_state <= RR1;
-                        rst_cont   <= '0';
+                        rst   <= '0';
                     end if;
                 when RG =>
                     light_a <= "001";
                     light_b <= "100";
                     if (T60 = '1' or (T20 = '1' and car_ns = '1' and car_lo = '0')) then
                         next_state <= RY ;
-                        rst_cont   <= '1';
+                        rst   <= '1';
                     else
                         next_state <= RG ;
-                        rst_cont   <= '0';
+                        rst   <= '0';
                     end if;
                 when RY =>
                     light_a <= "001";
                     light_b <= "010";
                     if (T6 = '1') then
                         next_state <= RR2;
-                        rst_cont   <= '1';
+                        rst   <= '1';
                     else
                         next_state <= RY ;
-                        rst_cont   <= '0';
+                        rst   <= '0';
                     end if;
                 when RR2 =>
                     light_a <= "001";
                     light_b <= "001";
                     if (T5 = '1') then
                         next_state <= GR ;
-                        rst_cont   <= '1';
+                        rst   <= '1';
                     else
                         next_state <= RR2;
-                        rst_cont   <= '0';
+                        rst   <= '0';
+                    end if;
+                when NN  =>
+                    light_a  <= "000";
+                    light_b  <= "000";
+                    if (on_off = '0') then 
+                        next_state <= GR;
+                        rst <= '1';
                     end if;
                 when others =>
                     light_a  <= "000";
                     light_b  <= "000";
-                    rst_cont <= '1';
+                    rst <= '1';
             end case;
         end if;
     end process;

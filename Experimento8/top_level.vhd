@@ -15,13 +15,13 @@ end top_level;
 
 architecture arch of top_level is
 
-    signal rst_cont         : std_logic;
+    signal rst              : std_logic;
     signal T5, T6, T20, T60 : std_logic;
 
     component time_system is
     port (
         clk      : in  std_logic;
-        rst      : in  std_logic;
+        rst_cont : in  std_logic;
         t5       : out std_logic;
         t6       : out std_logic;
         t20      : out std_logic;
@@ -49,7 +49,7 @@ begin
 
     cont        : time_system port map (
         clk      => clock,
-        rst      => rst_cont,
+        rst_cont => rst,
         t5       => T5,
         t6       => T6,
         t20      => T20,
@@ -69,7 +69,7 @@ begin
         on_off   => ligadeseliga,
         light_a  => semaforoA,
         light_b  => semaforoB,
-        rst_cont => rst_cont
+        rst_cont => rst
     );
 
 end arch ; -- arch

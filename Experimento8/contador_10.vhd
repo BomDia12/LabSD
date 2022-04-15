@@ -33,71 +33,90 @@ begin
                       ST9 when "1001",
                       ST0 when others;
     
-    sync_proc : process (clk)
+    sync_proc : process (clk, rst)
     begin
-        if rising_edge(clk) then
-            current_state <= next_state;
+        if (rst = '1') then current_state <= ST0;
+        elsif rising_edge(clk) then current_state <= next_state;
         end if;
     end process;
 
     comb_proc : process (current_state, rst, enable, rci, load, load_state)
     begin
-        if (rst = '1') then next_state <= ST0;
-        elsif (load = '1') then next_state <= load_state;
-        else
-            case current_state is
-                when ST0 => 
-                    q <= "0000";
-                    rco <= '1';
-                    if ((enable = '0') and (rci = '0')) then next_state <= ST1;
-                    end if;
-                when ST1 => 
-                    q <= "0001";
-                    rco <= '1';
-                    if ((enable = '0') and (rci = '0')) then next_state <= ST2;
-                    end if;
-                when ST2 => 
-                    q <= "0010";
-                    rco <= '1';
-                    if ((enable = '0') and (rci = '0')) then next_state <= ST3;
-                    end if;
-                when ST3 => 
-                    q <= "0011";
-                    rco <= '1';
-                    if ((enable = '0') and (rci = '0')) then next_state <= ST4;
-                    end if;
-                when ST4 => 
-                    q <= "0100";
-                    rco <= '1';
-                    if ((enable = '0') and (rci = '0')) then next_state <= ST5;
-                    end if;
-                when ST5 => 
-                    q <= "0101";
-                    rco <= '1';
-                    if ((enable = '0') and (rci = '0')) then next_state <= ST6;
-                    end if;
-                when ST6 => 
-                    q <= "0110";
-                    rco <= '1';
-                    if ((enable = '0') and (rci = '0')) then next_state <= ST7;
-                    end if;
-                when ST7 => 
-                    q <= "0111";
-                    rco <= '1';
-                    if ((enable = '0') and (rci = '0')) then next_state <= ST8;
-                    end if;
-                when ST8 => 
-                    q <= "1000";
-                    rco <= '1';
-                    if ((enable = '0') and (rci = '0')) then next_state <= ST9;
-                    end if;
-                when others => 
-                    q <= "1001";
-                    rco <= '0';
-                    if ((enable = '0') and (rci = '0')) then next_state <= ST0;
-                    end if;
-            end case;
-        end if;
+        case current_state is
+            when ST0 => 
+                q <= "0000";
+                rco <= '1';
+                if (load = '1') then next_state <= load_state;
+                elsif ((enable = '0') and (rci = '0')) then next_state <= ST1;
+                else next_state <= current_state;
+                end if;
+            when ST1 => 
+                q <= "0001";
+                rco <= '1';
+                if (load = '1') then next_state <= load_state;
+                elsif ((enable = '0') and (rci = '0')) then next_state <= ST2;
+                else next_state <= current_state;
+                end if;
+            when ST2 => 
+                q <= "0010";
+                rco <= '1';
+                if (load = '1') then next_state <= load_state;
+                elsif ((enable = '0') and (rci = '0')) then next_state <= ST3;
+                else next_state <= current_state;
+                end if;
+            when ST3 => 
+                q <= "0011";
+                rco <= '1';
+                if (load = '1') then next_state <= load_state;
+                elsif ((enable = '0') and (rci = '0')) then next_state <= ST4;
+                else next_state <= current_state;
+                end if;
+            when ST4 => 
+                q <= "0100";
+                rco <= '1';
+                if (load = '1') then next_state <= load_state;
+                elsif ((enable = '0') and (rci = '0')) then next_state <= ST5;
+                else next_state <= current_state;
+                end if;
+            when ST5 => 
+                q <= "0101";
+                rco <= '1';
+                if (load = '1') then next_state <= load_state;
+                elsif ((enable = '0') and (rci = '0')) then next_state <= ST6;
+                else next_state <= current_state;
+                end if;
+            when ST6 => 
+                q <= "0110";
+                rco <= '1';
+                if (load = '1') then next_state <= load_state;
+                elsif ((enable = '0') and (rci = '0')) then next_state <= ST7;
+                else next_state <= current_state;
+                end if;
+            when ST7 => 
+                q <= "0111";
+                rco <= '1';
+                if (load = '1') then next_state <= load_state;
+                elsif ((enable = '0') and (rci = '0')) then next_state <= ST8;
+                else next_state <= current_state;
+                end if;
+            when ST8 => 
+                q <= "1000";
+                rco <= '1';
+                if (load = '1') then next_state <= load_state;
+                elsif ((enable = '0') and (rci = '0')) then next_state <= ST9;
+                else next_state <= current_state;
+                end if;
+            when ST9 => 
+                q <= "1001";
+                rco <= '0';
+                if (load = '1') then next_state <= load_state;
+                elsif ((enable = '0') and (rci = '0')) then next_state <= ST0;
+                else next_state <= current_state;
+                end if;
+            when others =>
+                q <= "0000";
+                rco <=  '1';
+        end case;
     end process;
 
 end arch ; -- arch

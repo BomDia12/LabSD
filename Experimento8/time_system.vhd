@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 
 entity time_system is port (
     clk      : in  std_logic;
-    rst      : in  std_logic;
+    rst_cont : in  std_logic;
     t5       : out std_logic;
     t6       : out std_logic;
     t20      : out std_logic;
@@ -47,7 +47,7 @@ begin
         uniload  => "0000",
         dezload  => "0000",
         load     => '0',
-        rst      => rst,
+        rst      => rst_cont,
         cont_uni => uni,
         cont_dez => dez
     );
